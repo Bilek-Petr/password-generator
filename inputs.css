@@ -1,0 +1,95 @@
+/* SLIDER AND CHECKBOXES */
+
+input[type='range'] {
+   -webkit-appearance: none;
+   appearance: none;
+   width: 100%;
+   height: 8px;
+   background: transparent;
+   outline: none;
+   cursor: pointer;
+}
+
+input[type='range']::-webkit-slider-thumb {
+   -webkit-appearance: none;
+   appearance: none;
+   width: 16px;
+   height: 16px;
+   border: 2px solid #ffffff;
+   border-radius: 50%;
+   background-color: #ffffff;
+   cursor: pointer;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+   width: 100%;
+   height: 8px;
+   cursor: pointer;
+   background-color: var(--clr-gray-900);
+}
+
+input[type='range']::-moz-range-thumb {
+   width: 16px;
+   height: 16px;
+   border: 2px solid #ffffff;
+   border-radius: 50%;
+   background-color: #ffffff;
+   cursor: pointer;
+}
+
+input[type='range']::-moz-range-track {
+   width: 100%;
+   height: 8px;
+   cursor: pointer;
+   background-color: var(--clr-gray-900);
+}
+
+input[type='range']::-moz-range-progress {
+   background-color: var(--clr-green);
+   height: 8px;
+}
+
+input[type='range']::-ms-track {
+   width: 100%;
+   height: 8px;
+   cursor: pointer;
+   background: transparent;
+   border-color: transparent;
+   color: transparent;
+}
+
+input[type='range']::-ms-thumb {
+   width: 16px;
+   height: 16px;
+   border: 2px solid #ffffff;
+   border-radius: 50%;
+   background-color: #ffffff;
+   cursor: pointer;
+}
+
+input[type='range']::-ms-fill-lower {
+   background-color: var(--clr-green);
+}
+
+input[type='range']::-ms-fill-upper {
+   background-color: var(--clr-gray-900);
+}
+
+input[type='checkbox'] {
+   appearance: none;
+   -webkit-appearance: none;
+   display: inline-block;
+   width: 15px;
+   height: 15px;
+   border: 1.5px solid rgb(255, 255, 255);
+   background-size: 80% 80%;
+   background-position: center center;
+   background-repeat: no-repeat;
+   cursor: pointer;
+}
+
+input[type='checkbox']:checked {
+   background-color: var(--clr-green);
+   border-color: var(--clr-green);
+   background-image: url('../assets/images/icon-check.svg');
+}
