@@ -1,6 +1,7 @@
 # Password Generator App
  [Frontendmentor Challenge](https://www.frontendmentor.io/challenges/password-generator-app-Mr8CLycqjh)
 
+
 This is a simple password generator application built as part of the Frontend Mentor challenge. The project uses HTML, CSS, and JavaScript to create a user-friendly interface for generating random passwords based on selected criteria.
 
 ## Overview
@@ -21,5 +22,7 @@ The strength of the generated password is visually represented using color-coded
 
 ## Demo
 
-You can view a live demo of the Password Generator [here](https://your-demo-url.com).
+You can view a live demo of the Password Generator [here](https://bilek-petr.github.io/password-generator/).
+
+(the styling ain't fixed among browsers, works as it should in Firefox)
 
